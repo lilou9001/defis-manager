@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Target, Clock, Star, TrendingUp, Users, Brain, MessageCircle, Award, Filter } from "lucide-react";
+import { Target, Clock, Star, TrendingUp, Brain, MessageCircle, Award, Filter, Users } from "lucide-react";
 import { useNavigate } from "react-router";
 
 interface Challenge {
@@ -61,16 +61,6 @@ export function Challenges() {
       participants: 256,
     },
     {
-      id: 5,
-      title: "Je définis une vision d'équipe inspirante",
-      category: "Développement du manager",
-      difficulty: "Avancé",
-      duration: "2 semaines",
-      description: "Co-construisez avec votre équipe une vision motivante et alignée sur les objectifs",
-      points: 100,
-      participants: 145,
-    },
-    {
       id: 6,
       title: "Je pratique l'écoute active quotidienne",
       category: "Communication",
@@ -129,16 +119,6 @@ export function Challenges() {
       description: "Développez une posture de manager-coach en offrant votre soutien proactivement",
       points: 50,
       participants: 298,
-    },
-    {
-      id: 12,
-      title: "J'utilise les jeux de rôle pour favoriser la pensée critique",
-      category: "Développement d'équipe",
-      difficulty: "Intermédiaire",
-      duration: "1 semaine",
-      description: "Mettez en place des exercices de jeux de rôle pour développer l'esprit critique",
-      points: 75,
-      participants: 142,
     },
     {
       id: 13,
@@ -461,16 +441,6 @@ export function Challenges() {
       participants: 312,
     },
     {
-      id: 47,
-      title: "J'organise des ateliers de gestion du stress pour mon équipe",
-      category: "Gestion du stress",
-      difficulty: "Intermédiaire",
-      duration: "1 mois",
-      description: "Proposez des outils et techniques de gestion du stress collectivement",
-      points: 75,
-      participants: 198,
-    },
-    {
       id: 48,
       title: "Je développe ma résilience face aux situations difficiles",
       category: "Gestion du stress",
@@ -580,9 +550,39 @@ export function Challenges() {
       points: 75,
       participants: 156,
     },
+    {
+      id: 59,
+      title: "J'expérimente le rapport d'étonnement avec les nouveaux arrivants",
+      category: "Je fais grandir mon équipe",
+      difficulty: "Débutant",
+      duration: "1 semaine",
+      description: "Favorisez l'intégration des nouveaux collaborateurs en recueillant leur regard neuf sur l'organisation",
+      points: 50,
+      participants: 203,
+    },
+    {
+      id: 60,
+      title: "Je planifie régulièrement des rituels",
+      category: "Développement d'équipe",
+      difficulty: "Débutant",
+      duration: "2 semaines",
+      description: "Créez des moments réguliers (réunions de cristallisation, cérémonies, points d'équipe) qui structurent la vie collective",
+      points: 50,
+      participants: 256,
+    },
+    {
+      id: 61,
+      title: "J'incite mes collaborateurs à partager en réunion un article de presse intéressant le service",
+      category: "Communication",
+      difficulty: "Débutant",
+      duration: "1 semaine",
+      description: "Encouragez l'échange de connaissances et la curiosité collective en invitant l'équipe à partager des articles pertinents",
+      points: 50,
+      participants: 189,
+    },
   ];
 
-  const categories = ["Tous", "Communication", "Délégation", "Développement d'équipe", "Développement du manager", "Gestion des conflits", "Gestion du stress", "Gestion du temps", "Je fais grandir mon équipe"];
+  const categories = ["Tous", "Communication", "Délégation", "Développement d'équipe", "Développement du manager", "Gestion des conflits", "Gestion du stress", "Gestion du temps"];
   const difficulties = ["Tous", "Débutant", "Intermédiaire", "Avancé"];
 
   const filteredChallenges = challenges.filter((challenge) => {
@@ -714,10 +714,6 @@ export function Challenges() {
                   <span className="flex items-center gap-1">
                     <Star className="w-4 h-4 text-yellow-500" />
                     {challenge.points} pts
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Users className="w-4 h-4" />
-                    {challenge.participants}
                   </span>
                 </div>
                 <button className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-semibold" onClick={() => navigate(`/defis/${challenge.id}`)}>

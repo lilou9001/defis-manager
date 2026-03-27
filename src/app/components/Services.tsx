@@ -1,4 +1,4 @@
-import { UserCheck, Users, Handshake, Clock, CheckCircle, ArrowRight, Mail, Calendar, Lightbulb } from "lucide-react";
+import { UserCheck, Users, Handshake, Clock, CheckCircle, ArrowRight, Mail, Calendar, Lightbulb, Award } from "lucide-react";
 
 export function Services() {
   const services = [
@@ -19,6 +19,24 @@ export function Services() {
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-600",
+    },
+    {
+      icon: Award,
+      title: "Mentorat",
+      subtitle: "Transmission d'expérience",
+      description: "Bénéficiez de l'expérience d'un mentor expert pour accélérer votre progression professionnelle et développer votre potentiel de leadership.",
+      features: [
+        "Mentors expérimentés et certifiés",
+        "Relation d'apprentissage personnalisée",
+        "Transmission de savoir-faire et expérience",
+        "Développement de votre réseau professionnel",
+        "Parcours structuré avec étapes clés",
+      ],
+      duration: "6 à 12 mois",
+      frequency: "Séances mensuelles",
+      color: "from-teal-500 to-teal-600",
+      bgColor: "bg-teal-50",
+      textColor: "text-teal-600",
     },
     {
       icon: Handshake,
