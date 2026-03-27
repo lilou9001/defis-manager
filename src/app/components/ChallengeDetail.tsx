@@ -1097,13 +1097,6 @@ export function ChallengeDetail() {
       bibliography: {
         books: [
           {
-            title: "Les nouveaux espaces de travail",
-            author: "Boboc, Anca & Metzger, Jean-Luc",
-            year: "2019",
-            publisher: "Paris : La Découverte",
-            description: "Analyse sociologique des nouvelles organisations spatiales."
-          },
-          {
             title: "Conduire le changement",
             author: "Autissier, David & Moutot, Jean-Michel",
             year: "2021",

@@ -271,16 +271,6 @@ export function Challenges() {
       participants: 143,
     },
     {
-      id: 28,
-      title: "Je mets en place le Flex office",
-      category: "Développement du manager",
-      difficulty: "Avancé",
-      duration: "1 mois",
-      description: "Organisez un système de bureaux partagés adapté aux besoins de votre équipe",
-      points: 100,
-      participants: 98,
-    },
-    {
       id: 30,
       title: "J'incite mon équipe à s'inscrire en auto-formation",
       category: "Développement d'équipe",
