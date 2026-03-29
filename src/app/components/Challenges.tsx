@@ -570,6 +570,16 @@ export function Challenges() {
       points: 50,
       participants: 189,
     },
+    {
+      id: 62,
+      title: "Je découvre la démarche appréciative",
+      category: "Développement d'équipe",
+      difficulty: "Débutant",
+      duration: "2 semaines",
+      description: "Explorez comment valoriser les forces pour transformer le climat d'équipe et renforcer la coopération",
+      points: 50,
+      participants: 160,
+    },
   ];
 
   const categories = ["Tous", "Communication", "Délégation", "Développement d'équipe", "Développement du manager", "Gestion des conflits", "Gestion du stress", "Gestion du temps"];

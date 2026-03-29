@@ -2108,8 +2108,43 @@ export function ChallengeDetail() {
           }
         ]
       }
+    },
+    {
+      id: 62,
+      title: "Je découvre la démarche appréciative",
+      category: "Développement d'équipe",
+      difficulty: "Débutant",
+      description: "Partir des réussites pour imaginer un futur collectif plus performant et positif",
+      points: 50,
+      participants: 160,
+      definition: "La démarche appréciative est une approche centrée sur l'identification des forces et réussites pour construire des actions porteuses de sens et d'engagement. Elle passe par l'écoute active, le questionnement positif et la co-construction collective.",
+      importance: "Cette méthode accroît la motivation, la créativité et la coopération. Elle permet de transformer les freins en leviers en instaurant un climat positif et responsabilisant.",
+      vigilance: [
+        "Ne pas tomber dans le déni des problèmes : inclure également les tensions dans l'analyse",
+        "Éviter les formulations trop vagues : définir des indicateurs concrets",
+        "Assurer un suivi régulier des engagements issus de la co-construction"
+      ],
+      commentFaire: [
+        "Organisez un atelier pour recueillir 3 réussites collectives récentes",
+        "Questionnez l'équipe sur ce qui fonctionne et les conditions de succès",
+        "Formulez ensemble un objectif inspirant basé sur ces forces",
+        "Définissez des actions concrètes à partir des ressources identifiées",
+        "Planifiez un point de suivi et un retour d'expérience"
+      ],
+      bibliography: {
+        books: [
+          {
+            title: "L'approche appréciative : Oser voir le meilleur dans l'humain",
+            author: "Cooperrider, David & Whitney, Diana",
+            year: "2018",
+            publisher: "Paris : Dunod",
+            description: "Introduction à l'Appreciative Inquiry pour les organisations."
+          }
+        ]
+      }
     }
   ];
+
 
   const challenge = challengesData.find(c => c.id === Number(id));
 
