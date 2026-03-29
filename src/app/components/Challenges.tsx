@@ -472,13 +472,13 @@ export function Challenges() {
     },
     {
       id: 52,
-      title: "Je crée des opportunités d'apprentissage sur le terrain",
-      category: "Je fais grandir mon équipe",
+      title: "Je sensibilise mon équipe aux propos sexistes",
+      category: "Inclusion et respect",
       difficulty: "Débutant",
       duration: "2 semaines",
-      description: "Proposez des missions variées qui permettent d'acquérir de nouvelles compétences",
+      description: "Initiez un dialogue sur les comportements et standards attendus envers l'égalité femmes-hommes",
       points: 50,
-      participants: 345,
+      participants: 220,
     },
     {
       id: 53,

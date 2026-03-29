@@ -1864,36 +1864,27 @@ export function ChallengeDetail() {
     },
     {
       id: 52,
-      title: "Je crée des opportunités d'apprentissage sur le terrain",
-      category: "Je fais grandir mon équipe",
+      title: "Je sensibilise mon équipe aux propos sexistes",
+      category: "Inclusion et respect",
       difficulty: "Débutant",
-      description: "Proposez des missions variées qui permettent d'acquérir de nouvelles compétences",
+      description: "Initiez un dialogue sur les comportements et standards attendus pour lutter contre le sexisme en équipe",
       points: 50,
-      participants: 345,
-      definition: "Créer des opportunités d'apprentissage consiste à confier intentionnellement des missions ou projets qui sortent de la zone de confort et permettent de développer de nouvelles compétences dans l'action.",
-      importance: "70% de l'apprentissage se fait sur le terrain (modèle 70-20-10). Ces missions développent plus efficacement que la formation formelle et maintiennent la motivation.",
+      participants: 220,
+      definition: "Sensibiliser aux propos sexistes, c'est reconnaître les micro-agressions, clarifier les règles de langage et instaurer un environnement de travail respectueux pour tous.",
+      importance: "La prévention du sexisme améliore la confiance, la coopération et réduit les risques d'incidents et de turnover.",
       vigilance: [
-        "Doser le challenge : ni trop facile, ni écrasant (zone proximale)",
-        "Accompagner sans faire à la place",
-        "Sécuriser : droit à l'erreur et filet de sécurité",
-        "Débriefer après : qu'as-tu appris ?",
-        "Répartir équitablement ces opportunités"
+        "Ne pas banaliser les remarques normalisées",
+        "Encourager le signalement sans peur de représailles",
+        "Faire du suivi : évaluer l'évolution du climat"
       ],
       bibliography: {
         books: [
           {
-            title: "Le modèle 70-20-10",
-            author: "Jennings, Charles & Wargnier, Jérôme",
-            year: "2018",
-            publisher: "Paris : Dunod",
-            description: "Apprendre en situation de travail."
-          },
-          {
-            title: "Manager coach",
-            author: "Cardon, Alain",
-            year: "2019",
-            publisher: "Paris : Eyrolles",
-            description: "Développer par l'expérience."
+            title: "Parlons sexisme au travail",
+            author: "Durand, Marie",
+            year: "2022",
+            publisher: "Paris : Editions du Seuil",
+            description: "Guide pratique pour détecter et corriger les propos sexistes."
           }
         ]
       }
