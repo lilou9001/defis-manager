@@ -381,6 +381,16 @@ export function Challenges() {
       participants: 0,
     },
     {
+      id: 64,
+      title: "J'utilise le cahier de passation",
+      category: "Développement du manager",
+      difficulty: "Intermédiaire",
+      duration: "2 semaines",
+      description: "Formalisez le transfert de tâches et savoirs entre collaborateurs via un cahier de passation partagé",
+      points: 75,
+      participants: 0,
+    },
+    {
       id: 40,
       title: "À la fin d'un projet, je propose un temps informel pour célébrer",
       category: "Développement d'équipe",

@@ -2177,6 +2177,41 @@ export function ChallengeDetail() {
           }
         ]
       }
+    },
+    {
+      id: 64,
+      title: "J'utilise le cahier de passation",
+      category: "Développement du manager",
+      difficulty: "Intermédiaire",
+      description: "Formalisez le transfert de tâches et savoirs entre collaborateurs via un cahier de passation partagé",
+      points: 75,
+      participants: 0,
+      definition: "Le cahier de passation structure le suivi des responsabilités, facilite les transitions et sécurise les transferts d'activité. Ce défi consiste à créer et animer ce document avec l'équipe pour assurer une passation fluide.",
+      commentFaire: [
+        "Recensez les tâches clés et les responsabilités associées pour chaque poste",
+        "Documentez les procédures, points de vigilance et contacts utiles dans le cahier de passation",
+        "Organisez une revue avec les collaborateurs en charge de la passation",
+        "Testez la compréhension par un nouveau participant et ajustez le document",
+        "Mettez à jour le cahier après chaque changement organisationnel"
+      ],
+      importance: "Un cahier de passation réduit les erreurs, les ruptures d'information et le stress durant les changements de mission. Il consolide l'appropriation collective et la continuité des activités.",
+      vigilance: [
+        "Ne pas laisser le cahier devenir obsolète : mettre à jour régulièrement",
+        "Éviter les informations vagues : préciser les échéances et responsabilités",
+        "Veiller à l'accessibilité du cahier pour les personnes concernées",
+        "Ne pas externaliser sans transfert de connaissances : privilégier l'échange direct"
+      ],
+      bibliography: {
+        books: [
+          {
+            title: "Passation de responsabilités en contexte professionnel",
+            author: "Bernard, Claire",
+            year: "2022",
+            publisher: "Paris : Dunod",
+            description: "Guide pour construire des passations efficaces et partagées."
+          }
+        ]
+      }
     }
   ];
 

@@ -104,6 +104,7 @@ const CHALLENGES_DATA: Challenge[] = [
   { id: 4, title: 'Optimiser la répartition des tâches', category: 'Organisation', difficulty: 'Intermédiaire', completions: 41, status: 'published', created: '25/02/2026' },
   { id: 5, title: 'Développer son leadership', category: 'Leadership', difficulty: 'Avancé', completions: 19, status: 'published', created: '05/03/2026' },
   { id: 6, title: 'Je mesure la charge de travail', category: 'Gestion du temps', difficulty: 'Intermédiaire', completions: 0, status: 'published', created: '01/04/2026' },
+  { id: 7, title: "J'utilise le cahier de passation", category: 'Développement du manager', difficulty: 'Intermédiaire', completions: 0, status: 'published', created: '01/04/2026' },
 ];
 
 const DISCUSSIONS_DATA: Discussion[] = [
