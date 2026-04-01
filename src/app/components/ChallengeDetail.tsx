@@ -2142,6 +2142,41 @@ export function ChallengeDetail() {
           }
         ]
       }
+    },
+    {
+      id: 63,
+      title: "Je mesure la charge de travail",
+      category: "Gestion du temps",
+      difficulty: "Intermédiaire",
+      description: "Évaluez puis ajustez la charge de travail des missions de votre équipe pour un meilleur équilibre",
+      points: 75,
+      participants: 0,
+      definition: "Mesurer la charge de travail consiste à analyser le volume et la complexité des tâches, pour accordier les ressources et éviter la surcharge. Ce défi vous invite à mettre en place des cadences de suivi et des indicateurs de charge partagés avec votre équipe.",
+      commentFaire: [
+        "Collectez les activités et temps estimé pour chaque collaborateur pendant une semaine",
+        "Comparez la charge réelle avec les objectifs et identifiez les écarts",
+        "Établissez un tableau de bord simple (charge/temps disponible) pour visualiser les surcharges",
+        "Partagez les résultats avec l'équipe et priorisez les tâches critiques",
+        "Ajustez et redistribuez les missions en fonction des compétences et de la disponibilité"
+      ],
+      importance: "Une charge de travail mal mesurée conduit à l'épuisement, aux retards et à la baisse de qualité. Ce défi aide à instaurer une démarche préventive pour améliorer la santé au travail et la performance collective.",
+      vigilance: [
+        "Ne pas confondre disponibilité théorique et capacité de production réelle",
+        "Éviter de surajuster immédiatement sans discussion avec les collaborateurs",
+        "Ne pas négliger les temps non productifs nécessaires (réunions, pauses, soutien)",
+        "Mettre à jour régulièrement les estimations et ne pas laisser les données devenir obsolètes"
+      ],
+      bibliography: {
+        books: [
+          {
+            title: "Gestion du temps et des priorités",
+            author: "Meyer, Pierre",
+            year: "2021",
+            publisher: "Paris : Eyrolles",
+            description: "Méthodes pratiques pour analyser et répartir la charge de travail."
+          }
+        ]
+      }
     }
   ];
 

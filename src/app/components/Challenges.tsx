@@ -371,6 +371,16 @@ export function Challenges() {
       participants: 367,
     },
     {
+      id: 63,
+      title: "Je mesure la charge de travail",
+      category: "Gestion du temps",
+      difficulty: "Intermédiaire",
+      duration: "1 semaine",
+      description: "Évaluez puis ajustez la charge de travail des missions de votre équipe pour un meilleur équilibre",
+      points: 75,
+      participants: 0,
+    },
+    {
       id: 40,
       title: "À la fin d'un projet, je propose un temps informel pour célébrer",
       category: "Développement d'équipe",
